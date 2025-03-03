@@ -4,14 +4,16 @@ fun main() {
     println("ingrese su dinero inicial")
     val dineroinicial = readln()
     val numero =  (1..3).random()
+    val correr=true
     println("el numero al azar es el "+ numero)
 
 
-    when (numero){
+    when (correr){
 
         1 -> {
+
            val dinerofinal = dineroinicial.toInt() * 2
-            if (numero =)
+
             println("felicidades su dinero ahora es " + dinerofinal )
         }
         2->{
